@@ -1,6 +1,6 @@
 # 🖱️ Bl4ckTap
 
-**Bl4ckTap est un autoclicker Windows** qui automatise les clics de souris pour les tâches répétitives. Il permet de choisir le clic gauche, droit ou les deux, la vitesse et un mode maintien ou continu.
+**Bl4ckTap est un autoclicker** qui automatise les clics de souris pour les tâches répétitives. Il permet de choisir le clic gauche, droit ou les deux, la vitesse et un mode maintien ou continu.
 
 ## 📋 Prérequis
 
