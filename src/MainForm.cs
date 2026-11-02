@@ -27,13 +27,13 @@ namespace Bl4ckTapApp
         public MainForm(bool live)
         {
             AutoScaleDimensions = new SizeF(96,96); AutoScaleMode = AutoScaleMode.Dpi;
-            Text = "Bl4ckTap 2.0"; ClientSize = new Size(480,654);
+            Text = "Bl4ckTap 1.0"; ClientSize = new Size(480,654);
             FormBorderStyle = FormBorderStyle.FixedSingle; MaximizeBox = false; StartPosition = FormStartPosition.CenterScreen;
             BackColor = Theme.Background; ForeColor = Theme.Text; Font = new Font("Segoe UI",10); DoubleBuffered = true;
             Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
             AddLabel(this,"BL4CKTAP",24,19,350,34,22,Theme.Text,FontStyle.Bold);
             AddLabel(this,"S I M P L E  /  P R É C I S  /  R A P I D E",26,56,370,18,8,Theme.Muted);
-            Label version = AddLabel(this,"2.0",409,27,47,23,10,Theme.Muted); version.TextAlign = ContentAlignment.MiddleRight;
+            Label version = AddLabel(this,"1.0",409,27,47,23,10,Theme.Muted); version.TextAlign = ContentAlignment.MiddleRight;
 
             statusCard = new StatusCard { Bounds = new Rectangle(24,88,432,65) };
             Controls.Add(statusCard);
