@@ -9,11 +9,14 @@
 
 ## 🚀 Lancement
 
-**Tu as déjà l'exécutable ?** Double-clique sur **`Bl4ckTap.exe`**. Après compilation, il se trouve dans le dossier **`bin/`**.
+**Prérequis : Windows et .NET Framework 4.8.** Choisis l'une des deux options :
 
-**Tu as téléchargé les sources ?** Ouvre PowerShell dans le dossier contenant `build.ps1`, puis exécute :
+- **Exécutable prêt à lancer :** télécharge `Bl4ckTap.exe` dans **Releases**, puis double-clique dessus.
+- **Compiler toi-même :** sur la page GitHub, clique sur **Code → Download ZIP**, puis extrais l'archive. Ouvre PowerShell dans le dossier du projet et lance :
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 .\bin\Bl4ckTap.exe
 ```
+
+L'exécutable compilé se trouve dans `bin/`.
