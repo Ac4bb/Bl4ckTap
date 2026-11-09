@@ -6,14 +6,14 @@ le raccourci et les étapes permettant de reproduire le problème.
 
 ## Vérifier une modification
 
-Depuis le dossier du projet, sur Windows avec .NET Framework 4.8 :
+Depuis le dossier du projet, sur Windows avec .NET Framework 4.8, compile le projet
+pour vérifier que tout fonctionne :
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Test
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
-Les tests par défaut simulent les événements sans envoyer de clics réels.
-Pour les vérifications interactives, consulte le README. Vérifie aussi le rendu
+Lance ensuite `bin\Bl4ckTap.exe` et teste ta modification. Vérifie aussi le rendu
 de l'interface si ta modification concerne les contrôles ou leur disposition.
 
 Une pull request doit expliquer le problème, la correction et les vérifications
