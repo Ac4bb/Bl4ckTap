@@ -5,18 +5,24 @@
 ## 📋 Prérequis
 
 - **Windows** avec **.NET Framework 4.8**.
-- Si tu télécharges les sources, **compile le projet** avec la commande ci-dessous pour obtenir l'exécutable. Visual Studio et Python ne sont pas nécessaires.
+- Si tu télécharges les sources, **compile le projet** (voir Lancement) pour obtenir l'exécutable. Visual Studio et Python ne sont pas nécessaires.
 
 ## 🚀 Lancement
 
-**Prérequis : Windows et .NET Framework 4.8.** Choisis l'une des deux options :
+Choisis l'une des deux options :
 
 - **Exécutable prêt à lancer :** télécharge `Bl4ckTap.exe` dans **Releases**, puis double-clique dessus.
 - **Compiler toi-même :** sur la page GitHub, clique sur **Code → Download ZIP**, puis extrais l'archive. Ouvre PowerShell dans le dossier du projet et lance :
 
-```powershell
+```
 powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 .\bin\Bl4ckTap.exe
 ```
 
 L'exécutable compilé se trouve dans `bin/`.
+
+## ⚠️ Avertissement Windows
+
+Bl4ckTap n'est pas signé numériquement. Au premier lancement, Windows SmartScreen peut afficher « Windows a protégé votre ordinateur ». C'est normal pour un petit programme indépendant : clique sur **Informations complémentaires**, puis sur **Exécuter quand même**.
+
+Certains antivirus se méfient des autoclickers. Le code source est entièrement visible dans ce dépôt, et tu peux compiler le programme toi-même si tu préfères.
