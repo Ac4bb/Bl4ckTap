@@ -26,3 +26,7 @@ L'exécutable compilé se trouve dans `bin/`.
 Bl4ckTap n'est pas signé numériquement. Au premier lancement, Windows SmartScreen peut afficher « Windows a protégé votre ordinateur ». C'est normal pour un petit programme indépendant : clique sur **Informations complémentaires**, puis sur **Exécuter quand même**.
 
 Certains antivirus se méfient des autoclickers. Le code source est entièrement visible dans ce dépôt, et tu peux compiler le programme toi-même si tu préfères.
+
+## 📄 Licence
+
+MIT, voir le fichier `LICENSE`.
